@@ -1,26 +1,61 @@
 using UnityEngine;
+using Unity.MLAgents;
+using Unity.MLAgents.Actuators;
+using Unity.MLAgents.Sensors;
 using UnityEngine.SceneManagement;
 
-public class PlayerAgent : MonoBehaviour
+public class PlayerAgent : Agent
 {
-    public float moveSpeed = 10f;
-    public float moveRange = 5f;
+    public float moveSpeed = 5f;
+    public float laneWidth = 2f;
+    private Rigidbody rb;
 
-    void Update()
+    public override void Initialize()
     {
-        float moveX = Input.GetAxis("Horizontal");
-        Vector3 newPosition = transform.position + new Vector3(moveX * moveSpeed * Time.deltaTime, 0, 0);
-        newPosition.x = Mathf.Clamp(newPosition.x, -moveRange, moveRange);
-        transform.position = newPosition;
+        rb = GetComponent<Rigidbody>();
     }
 
-    void OnCollisionEnter(Collision collision)
+    public override void OnEpisodeBegin()
+    {
+        // Reset position
+        transform.localPosition = new Vector3(0, 0.5f, 0);
+
+        // Reset obstacles and scene
+        foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Obstacle"))
+        {
+            Destroy(obj);
+        }
+    }
+
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        // Observe player X position and velocity
+        sensor.AddObservation(transform.localPosition.x);
+        sensor.AddObservation(rb.velocity.x);
+    }
+
+    public override void OnActionReceived(ActionBuffers actions)
+    {
+        float moveX = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
+        Vector3 move = new Vector3(moveX, 0, 0) * moveSpeed * Time.deltaTime;
+        transform.Translate(move, Space.World);
+
+        AddReward(0.01f); // small reward for staying alive
+    }
+
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        var continuousActionsOut = actionsOut.ContinuousActions;
+        continuousActionsOut[0] = Input.GetAxis("Horizontal");
+    }
+
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            Debug.Log("Game Over! Restarting…");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SetReward(-1f);
+            EndEpisode();
+            Debug.Log("Game Over! Restarting episode...");
         }
     }
 }
-
