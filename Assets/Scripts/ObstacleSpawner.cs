@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
 {
-    public GameObject obstaclePrefab;  // <- Must be public
-    public float spawnInterval = 2f;
+    public GameObject obstaclePrefab;
+    public float spawnInterval = 1.5f;
     public float spawnRangeX = 3f;
+    public float spawnDistanceAhead = 30f;
+    public Transform player;
 
     void Start()
     {
@@ -14,12 +16,23 @@ public class ObstacleSpawner : MonoBehaviour
 
     IEnumerator SpawnObstacles()
     {
-        while (true)
+        while (true) // infinite loop
         {
-            float randomX = Random.Range(-spawnRangeX, spawnRangeX);
-            Vector3 spawnPos = new Vector3(randomX, 1f, transform.position.z);
-            Instantiate(obstaclePrefab, spawnPos, Quaternion.identity);
+            if (player != null)
+            {
+                SpawnSingleObstacle();
+            }
             yield return new WaitForSeconds(spawnInterval);
         }
     }
+
+    void SpawnSingleObstacle()
+    {
+        float randomX = Random.Range(-spawnRangeX, spawnRangeX);
+        float spawnZ = player.position.z + spawnDistanceAhead;
+
+        Vector3 spawnPosition = new Vector3(randomX, 0.5f, spawnZ);
+        Instantiate(obstaclePrefab, spawnPosition, Quaternion.identity);
+    }
 }
+

@@ -7,16 +7,32 @@
       "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeragent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\assets\\scripts\\groundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\assets\\scripts\\collisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\assets\\scripts\\obstaclemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A5AE18C-3996-A325-04C1-C4AB2A42A917}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\simpleplayermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\simpleplayermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +50,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CollisionHandler.cs",
               "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\CollisionHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollisionHandler.cs",
               "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\CollisionHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\CollisionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T18:25:41.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ObstacleMovement.cs",
-              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleMovement.cs",
-              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObstacleMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T18:20:50.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ObstacleSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
-              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawner.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAzwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:43:50.784Z"
+              "WhenOpened": "2025-10-05T19:37:57.439Z"
             },
             {
               "$type": "Document",
@@ -76,10 +80,69 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAgent.cs",
               "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\PlayerAgent.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerAgent.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T14:36:58.241Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "simpleplayermove.cs",
+              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\simpleplayermove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\simpleplayermove.cs",
+              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\simpleplayermove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\simpleplayermove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T19:37:11.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObstacleSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
+              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawner.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T15:43:50.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:59:12.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroundManager.cs",
+              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\GroundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GroundManager.cs",
+              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\GroundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GroundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T19:21:21.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ObstacleMovement.cs",
+              "DocumentMoniker": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleMovement.cs",
+              "ToolTip": "C:\\Users\\sxea7\\OneDrive\\Desktop\\University\\CS - 7th sem\\Intro to RL\\EndlessRunnerRL\\Assets\\Scripts\\ObstacleMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstacleMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:20:50.098Z"
             }
           ]
         }

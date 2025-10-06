@@ -2,12 +2,11 @@ using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
-using UnityEngine.SceneManagement;
 
 public class PlayerAgent : Agent
 {
-    public float moveSpeed = 5f;
-    public float laneWidth = 2f;
+    public float moveSpeed = 8f;
+    public float laneLimit = 4f;
     private Rigidbody rb;
 
     public override void Initialize()
@@ -20,7 +19,7 @@ public class PlayerAgent : Agent
         // Reset position
         transform.localPosition = new Vector3(0, 0.5f, 0);
 
-        // Reset obstacles and scene
+        // Destroy existing obstacles
         foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Obstacle"))
         {
             Destroy(obj);
@@ -29,7 +28,7 @@ public class PlayerAgent : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        // Observe player X position and velocity
+        // X position and velocity
         sensor.AddObservation(transform.localPosition.x);
         sensor.AddObservation(rb.velocity.x);
     }
@@ -37,10 +36,14 @@ public class PlayerAgent : Agent
     public override void OnActionReceived(ActionBuffers actions)
     {
         float moveX = Mathf.Clamp(actions.ContinuousActions[0], -1f, 1f);
-        Vector3 move = new Vector3(moveX, 0, 0) * moveSpeed * Time.deltaTime;
+        Vector3 move = new Vector3(moveX * moveSpeed * Time.deltaTime, 0, 0);
         transform.Translate(move, Space.World);
 
-        AddReward(0.01f); // small reward for staying alive
+        // Keep within lane limits
+        float clampedX = Mathf.Clamp(transform.localPosition.x, -laneLimit, laneLimit);
+        transform.localPosition = new Vector3(clampedX, transform.localPosition.y, transform.localPosition.z);
+
+        AddReward(0.01f); // Reward for staying alive
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -59,3 +62,8 @@ public class PlayerAgent : Agent
         }
     }
 }
+
+
+
+
+
